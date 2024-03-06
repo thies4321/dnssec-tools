@@ -1,0 +1,28 @@
+{
+    "name": "thies4321/dnssec-tools",
+    "description": "DNSSEC tools for PHP",
+    "keywords": ["DNSSEC"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DnsSecTools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DnsSecTools\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "psy/psysh": "^0.12.0",
+        "phpunit/phpunit": "^11"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}
